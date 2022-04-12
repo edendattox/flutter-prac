@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/utils/routes.dart';
 
 class HomePage extends StatelessWidget {
   final int days = 30;
@@ -11,8 +12,11 @@ class HomePage extends StatelessWidget {
           title: Text("Catalog App"),
         ),
         body: Center(
-          child: Container(
-            child: Text("Welcome to $days days of flutter by $name"),
+          child: ElevatedButton(
+            child: Text("Login"),
+            onPressed: () {
+              Navigator.pushNamed(context, MyRoutes.loginRoute);
+            },
           ),
         ),
         drawer: Drawer());
