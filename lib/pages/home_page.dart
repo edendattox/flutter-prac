@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utils/routes.dart';
 
+import '../widgets/drawer.dart';
+
 class HomePage extends StatelessWidget {
   final int days = 30;
   final String name = "Codepur";
@@ -19,6 +21,6 @@ class HomePage extends StatelessWidget {
             },
           ),
         ),
-        drawer: Drawer());
+        drawer: MyDrawer());
   }
 }
