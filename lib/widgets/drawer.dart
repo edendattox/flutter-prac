@@ -30,35 +30,44 @@ class MyDrawer extends StatelessWidget {
             ),
           ),
           ListTile(
-              leading: Icon(
-                CupertinoIcons.home,
+            leading: Icon(
+              CupertinoIcons.home,
+              color: Color.fromARGB(255, 0, 0, 0),
+            ),
+            title: Text(
+              "Home",
+              textScaleFactor: 1.2,
+              style: TextStyle(
                 color: Color.fromARGB(255, 0, 0, 0),
               ),
-              title: Text("Home",
-                  textScaleFactor: 1.2,
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 0, 0, 0),
-                  ))),
+            ),
+          ),
           ListTile(
-              leading: Icon(
-                CupertinoIcons.search,
+            leading: Icon(
+              CupertinoIcons.search,
+              color: Color.fromARGB(255, 0, 0, 0),
+            ),
+            title: Text(
+              "search",
+              textScaleFactor: 1.2,
+              style: TextStyle(
                 color: Color.fromARGB(255, 0, 0, 0),
               ),
-              title: Text("search",
-                  textScaleFactor: 1.2,
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 0, 0, 0),
-                  ))),
+            ),
+          ),
           ListTile(
-              leading: Icon(
-                CupertinoIcons.mail,
+            leading: Icon(
+              CupertinoIcons.mail,
+              color: Color.fromARGB(255, 0, 0, 0),
+            ),
+            title: Text(
+              "email",
+              textScaleFactor: 1.2,
+              style: TextStyle(
                 color: Color.fromARGB(255, 0, 0, 0),
               ),
-              title: Text("email",
-                  textScaleFactor: 1.2,
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 0, 0, 0),
-                  )))
+            ),
+          ),
         ],
       ),
     );
